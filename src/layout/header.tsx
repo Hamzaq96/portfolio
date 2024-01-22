@@ -6,7 +6,7 @@ export const Header = () => {
             <div className="logo">
                 <Link href="/">{"Hamza's Portfolio"}</Link>
             </div>
-            <Link href="/projects">My Projects</Link>
+            {/* <Link href="/projects">My Projects</Link> */}
         </div>
     );
 };
