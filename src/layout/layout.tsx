@@ -1,7 +1,7 @@
 // A template for all the pages.
 import { Header, Footer } from "./index";
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children }: any) => {
     return (
         <>
             <Header />

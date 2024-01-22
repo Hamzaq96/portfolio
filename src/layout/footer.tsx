@@ -6,7 +6,7 @@ export const Footer = () => {
         <hr />
         <div className="footer-container">
             <p>
-                @ {new Date().getFullYear()} Hamza's Portfolio
+                @ {new Date().getFullYear()} {"Hamza's Portfolio"}
             </p>
             <div className="social_icons">
                 <a 

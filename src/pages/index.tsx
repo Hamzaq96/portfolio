@@ -12,7 +12,7 @@ export const Home = () => {
                     <Image src="/picture3.jpeg" alt="Hamza's Profile Picture" className="profile-img" width={300} height={300} />
                 </div>
                 <div>
-                    <h1>Hey, I'm Hamza</h1>
+                    <h1>Hey, {"I'm Hamza"}</h1>
                     <p>
                     Innovative Software Engineer with a dynamic 4-year background in Agile software development. 
                     Adept at delivering high-impact projects independently and collaboratively, 
