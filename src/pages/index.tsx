@@ -3,6 +3,7 @@ import Image from "next/image";
 // import "@/main.scss";
 import "@/app/globals.css";
 import Skills from "@/components/organisms/skills";
+import Projects from "./projects";
 
 export const Home = () => {
     return (
@@ -26,6 +27,7 @@ export const Home = () => {
             </section>
             <div>
                 <Skills />
+                <Projects />
             </div>
         </>
     );
