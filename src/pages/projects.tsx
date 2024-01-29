@@ -10,7 +10,7 @@ export const Projects = () => {
                         <div className="project-header">
                             <i className="fa-regular fa-folder-open folder-icon"></i>
                             <div className="small-icon">
-                                <a href="{project.gitHubLink}"><i className="fa-brands fa-github"></i></a>
+                                <a target="_blank" href={project.gitHubLink} rel="noopener norefferer"><i className="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                         <h3>{project.title}</h3>
