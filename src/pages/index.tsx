@@ -4,7 +4,7 @@ import Image from "next/image";
 import "@/app/globals.css";
 // import Skills from "@/components/organisms/skills";
 import Projects from "./projects";
-import { Skills } from "./skills";
+import Skills from "./skills";
 export const Home = () => {
     return (
         <>

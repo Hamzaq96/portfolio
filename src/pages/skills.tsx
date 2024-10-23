@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Code, Database, Server } from "lucide-react"
 
-export const Skills = () => {
+const Skills = () => {
     return (
         <div className="skills-container">
             <section id="skills" className="w-full py-12 md:py-24 lg:py-42 bg-gray-800" style={{ width: '99.5vw', marginLeft: 'calc(-50vw + 50%)' }}>
@@ -70,3 +70,5 @@ export const Skills = () => {
         </div>
     )
 }
+
+export default Skills;
