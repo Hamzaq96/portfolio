@@ -14,7 +14,7 @@ export const Projects = () => {
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">Featured Projects</h2>
                     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                         {projectData && projectData.map((project) => (
-                            <Card className="bg-gray-800 border-gray-700 flex flex-col">
+                            <Card key={project.id} className="bg-gray-800 border-gray-700 flex flex-col">
                                 <CardHeader>
                                 <CardTitle className="text-xl font-bold text-white">{project.title}</CardTitle>
                                 <CardDescription>{project.intro}</CardDescription>
@@ -42,8 +42,8 @@ export const Projects = () => {
                                             )}
                                             {project.gitHubLink !== '' && (
                                                 <Button variant="outline" size="sm" asChild>
-                                                    <Link href={project.gitHubLink} target="_blank" rel="noopener noreferrer">
-                                                        <Github className="mr-2 h-4 w-4" />
+                                                    <Link href={project.gitHubLink} target="_blank" rel="noopener noreferrer" className="text-black">
+                                                        <Github className="mr-2 h-4 w-4 " />
                                                         GitHub
                                                     </Link>
                                                 </Button>
