@@ -15,7 +15,7 @@ export const projectData = [
       title: 'Inception AI',
       intro: 'An AI-powered idea validator',
       description: 'An AI-powered idea validator. The platform leverages real-time web data to validate the users concepts and delivers a comprehensive report in just minutes.', 
-      techStack: ['NextJS', 'TailwindCSS', 'LLM'],
+      techStack: ['NextJS', 'TailwindCSS', 'Python', 'LLM'],
       gitHubLink: '',
       liveLink: 'https://ai-idea-validator.vercel.app/',
     },
