@@ -1,14 +1,23 @@
 import { title } from "process";
 
 export const projectData = [
+    // {
+    //   id: 1,
+    //   title: 'Inception',
+    //   intro: 'A SaaS platform that leverages AI to validate startup ideas.',
+    //   description: 'It focuses on creating a community where you can receive valuable feedback, find the right partners, build a team, and potentially secure funding.', 
+    //   techStack: ['NextJS', 'TailwindCSS', 'PostgreSQL', 'LLM'],
+    //   gitHubLink: '',
+    //   liveLink: 'https://inception-frontend.vercel.app/',
+    // },
     {
       id: 1,
-      title: 'Inception',
-      intro: 'A SaaS platform that leverages AI to validate startup ideas.',
-      description: 'It focuses on creating a community where you can receive valuable feedback, find the right partners, build a team, and potentially secure funding.', 
-      techStack: ['NextJS', 'TailwindCSS', 'PostgreSQL', 'LLM'],
+      title: 'Inception AI',
+      intro: 'An AI-powered idea validator',
+      description: 'An AI-powered idea validator. The platform leverages real-time web data to validate the users concepts and delivers a comprehensive report in just minutes.', 
+      techStack: ['NextJS', 'TailwindCSS', 'LLM'],
       gitHubLink: '',
-      liveLink: 'https://inception-frontend.vercel.app/',
+      liveLink: 'https://ai-idea-validator.vercel.app/',
     },
     {
       id: 2,

@@ -21,7 +21,7 @@ export const Home = () => {
                     <div className="hero-text text-center md:text-left max-w-2xl">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Hey, {"I'm Hamza Qureshi"}</h1>
                         <p className="text-sm md:text-base lg:text-lg">
-                            Innovative Software Engineer with a dynamic 4-year background in Agile software development. 
+                            Innovative Software Engineer with a dynamic 5-year background in Agile software development. 
                             Adept at delivering high-impact projects independently and collaboratively, 
                             consistently surpassing deadlines and budgetary expectations. 
                             Passionate about pushing the boundaries of technology to tackle real-world challenges, 
